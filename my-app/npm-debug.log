@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/cis/local/bin/node',
+1 verbose cli   '/home/cis/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'apache-ant' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose cache add [ 'apache-ant', null ]
+5 verbose cache add name=undefined spec="apache-ant" args=["apache-ant",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'apache-ant',
+6 verbose parsed url   path: 'apache-ant',
+6 verbose parsed url   href: 'apache-ant' }
+7 silly lockFile 5e906ec7-apache-ant apache-ant
+8 verbose lock apache-ant /home/cis/.npm/5e906ec7-apache-ant.lock
+9 silly lockFile 5e906ec7-apache-ant apache-ant
+10 silly lockFile 5e906ec7-apache-ant apache-ant
+11 verbose addNamed [ 'apache-ant', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile aa54d620-apache-ant apache-ant@
+14 verbose lock apache-ant@ /home/cis/.npm/aa54d620-apache-ant.lock
+15 silly addNameRange { name: 'apache-ant', range: '*', hasData: false }
+16 verbose url raw apache-ant
+17 verbose url resolving [ 'http://registry.npmjs.org/', './apache-ant' ]
+18 verbose url resolved http://registry.npmjs.org/apache-ant
+19 info trying registry request attempt 1 at 16:00:32
+20 http GET http://registry.npmjs.org/apache-ant
+21 http 404 http://registry.npmjs.org/apache-ant
+22 silly registry.get cb [ 404,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'cache-control': 'max-age=0',
+22 silly registry.get     'content-length': '52',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Wed, 19 Mar 2014 10:30:31 GMT',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-sv60-SJC3',
+22 silly registry.get     'x-cache': 'MISS, MISS',
+22 silly registry.get     'x-cache-hits': '0, 0',
+22 silly registry.get     'x-timer': 'S1395225031.386029005,VS0,VS-353,VE-333,VE93' } ]
+23 silly lockFile aa54d620-apache-ant apache-ant@
+24 silly lockFile aa54d620-apache-ant apache-ant@
+25 error 404 'apache-ant' is not in the npm registry.
+25 error 404 You should bug the author to publish it
+25 error 404
+25 error 404 Note that you can also install from a
+25 error 404 tarball, folder, or http url, or git url.
+26 error System Linux 2.6.32-54-generic
+27 error command "/home/cis/local/bin/node" "/home/cis/local/bin/npm" "install" "-g" "apache-ant"
+28 error cwd /home/cis/work/phonegap/my-app
+29 error node -v v0.10.24
+30 error npm -v 1.3.21
+31 error code E404
+32 verbose exit [ 1, true ]

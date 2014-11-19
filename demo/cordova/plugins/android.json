@@ -1,0 +1,20 @@
+{
+    "prepare_queue": {
+        "installed": [
+            {
+                "plugin": "com.risingj.cordova.socialshare",
+                "vars": {},
+                "topLevel": true
+            },
+            {
+                "plugin": "com.risingj.cordova.socialshare",
+                "vars": {},
+                "topLevel": true
+            }
+        ],
+        "uninstalled": []
+    },
+    "config_munge": {},
+    "installed_plugins": {},
+    "dependent_plugins": {}
+}
